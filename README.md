@@ -75,7 +75,7 @@ DISCLAIMER:
 
 对于修改版MARS，请务必遵循[原版MARS之版权声明](MARSlicense.txt)。P7对拍脚本中使用的修改版，亦已获得了该修改版作者的同意。
 
-若有版权问题，请即时在Issue中提出，或[电邮联系](mailto://lajipz@qq.com)，感谢。
+若有版权问题，请即时在Issue中提出，或[电邮联系](mailto:lajipz@qq.com)，感谢。
 
 
 
