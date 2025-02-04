@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/15402/Desktop/P6/isim.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/mips_tb/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/D_IFU_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_IFU_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_IFU_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/D_IFU_INS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_IFU_INS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_IFU_INS[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/timer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/status" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">status</obj_property>
+      <obj_property name="ObjectShortName">status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/ovrd_hi_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ovrd_hi_reg</obj_property>
+      <obj_property name="ObjectShortName">ovrd_hi_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/ovrd_lo_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ovrd_lo_reg</obj_property>
+      <obj_property name="ObjectShortName">ovrd_lo_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/HI_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HI_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HI_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/Md/LO_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LO_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LO_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/C_IFU_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">C_IFU_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_IFU_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall</obj_property>
+      <obj_property name="ObjectShortName">_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_MD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_MD</obj_property>
+      <obj_property name="ObjectShortName">_stall_MD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_MD_HI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_MD_HI</obj_property>
+      <obj_property name="ObjectShortName">_stall_MD_HI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_MD_LO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_MD_LO</obj_property>
+      <obj_property name="ObjectShortName">_stall_MD_LO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd1</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd1_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd1_E</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd1_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd1_E_cond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd1_E_cond</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd1_E_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd1_M" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd1_M</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd1_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd1_M_cond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd1_M_cond</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd1_M_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd2</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd2_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd2_E</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd2_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd2_E_cond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd2_E_cond</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd2_E_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd2_M" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd2_M</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd2_M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_stall_rd2_M_cond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">_stall_rd2_M_cond</obj_property>
+      <obj_property name="ObjectShortName">_stall_rd2_M_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_MD_HI" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">_MD_HI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">_MD_HI[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/_MD_LO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">_MD_LO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">_MD_LO[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
