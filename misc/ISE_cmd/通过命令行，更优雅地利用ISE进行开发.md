@@ -38,7 +38,7 @@ verilog work "./src/mips_tb.v"
 
 在工作目录下，我们必须放好`.prj, .tcl`文件，以及读入`IFU`的机器码`code.txt`。 最后结构如下所示。
 
-![Screenshot 20241030 225602.png](../assets/Screenshot_2024-10-30_225602.png)
+![Screenshot 20241030 225602.png](./assets/Screenshot_2024-10-30_225602.png)
 
 这样就实现了项目目录的有效管理，开新模块的时候也不会有烦人的对话框了。
 
